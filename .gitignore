@@ -1,0 +1,60 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Dados sensíveis
+.env
+.env.local
+*.key
+
+# Editor
+.editorconfig
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# JSON temporário
+*.tmp.json
+
+# Arquivos gerados pelo projeto
+features/*.feature
