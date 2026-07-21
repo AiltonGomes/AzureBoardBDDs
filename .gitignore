@@ -6,6 +6,7 @@ ENV/
 
 # Python
 __pycache__/
+__pycache__
 *.py[cod]
 *$py.class
 *.so
@@ -58,3 +59,10 @@ htmlcov/
 
 # Arquivos gerados pelo projeto
 features/*.feature
+
+# Ignora o arquivo que armazena o histórico local de histórias processadas
+data/historias_processadas.json
+
+# Ignora todos os arquivos BDD gerados na pasta features
+features/*.feature
+features/**/*.feature
